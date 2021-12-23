@@ -1,4 +1,5 @@
-﻿public class Solution {
+﻿using System;
+public class Solution {
        public bool IsValid(string input)
         {
          bool valid = Quantaty(input);
