@@ -1,27 +1,48 @@
-﻿string [] strs = new string[2]  {"cira","cara"};
-    string a = strs[0];
-    int num = 0;
-    int previousnum=a.Length;
-        
-
-        
-    foreach(string x in strs){
-    int result = (a.Length < x.Length) ? a.Length:x.Length;
-        
-        for(int i = 0; i<result; i++){
+﻿string s = "()[]{}";
+string [] open = new string[3] {"(","[","{"};
+string [] close = new string[3] {")","]","}"};
+    int indexopen=0;
+    string closed="";
+    string openned="";
+        for(int i=0;i<s.Length;i=i+2){
+            openned = s[i].ToString();
+            indexopen = Array.IndexOf(open,openned);
+            Console.WriteLine("{0} {1}",openned,indexopen);
             
-            if(a[i].CompareTo(x[i])==0){
-                num++;
+            if(indexopen==-1){
+            break;
             }else{
+                for(int j=i+1;j<s.Length;j++){
+                    closed = s[j].ToString();
+                    if(openned.CompareTo(open[0])==0){
+                     closed=close[0];
+                     
+                    }else if (openned.CompareTo(open[1])==0){
+                        closed = close[1];
+                        
+                    }else if(openned.CompareTo(open[2])==0){
+                        closed = close[2];
+                        
+                    }
+                    
+                }
+                int indexclose = s.IndexOf(closed);
+                
+                if(indexclose==-1){
+                indexopen=-1;
                 break;
+                }/*else{
+                    if(indexclose-indexopen==1 || indexclose-indexopen==3){
+                        s = s.Replace(openned, string.Empty);
+                        s = s.Replace(closed, string.Empty);
+                    }
+                }*/
+                    
             }
             
+            
         }
-    if(previousnum > num){
-    previousnum=num;
-    }
-    num=0;
-    
-    }
-    
-    Console.WriteLine(previousnum);
+        Console.WriteLine("asd");
+        Console.WriteLine(s);
+        bool result = (indexopen==-1) ? true:false;
+        
