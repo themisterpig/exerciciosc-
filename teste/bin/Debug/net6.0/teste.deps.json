@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "exerciciosc-/1.0.0": {
+      "teste/1.0.0": {
         "runtime": {
-          "exerciciosc-.dll": {}
+          "teste.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "exerciciosc-/1.0.0": {
+    "teste/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

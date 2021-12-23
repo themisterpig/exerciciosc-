@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josed\\Documents\\GitHub\\exerciciosc-\\teste\\exerciciosc-.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\exerciciosc-\\teste\\teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josed\\Documents\\GitHub\\exerciciosc-\\teste\\exerciciosc-.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\exerciciosc-\\teste\\teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josed\\Documents\\GitHub\\exerciciosc-\\teste\\exerciciosc-.csproj",
-        "projectName": "exerciciosc-",
-        "projectPath": "C:\\Users\\josed\\Documents\\GitHub\\exerciciosc-\\teste\\exerciciosc-.csproj",
-        "packagesPath": "C:\\Users\\josed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josed\\Documents\\GitHub\\exerciciosc-\\teste\\obj\\",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\exerciciosc-\\teste\\teste.csproj",
+        "projectName": "teste",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\exerciciosc-\\teste\\teste.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\exerciciosc-\\teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\josed\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
