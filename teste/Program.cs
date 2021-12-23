@@ -9,6 +9,7 @@ string [] close = new string[3] {")","]","}"};
             indexopen = Array.IndexOf(open,openned);
             Console.WriteLine("{0} {1}",openned,indexopen);
             
+            
             if(indexopen==-1){
             break;
             }else{
