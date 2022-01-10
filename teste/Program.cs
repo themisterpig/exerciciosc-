@@ -4,7 +4,7 @@ string [] close = new string[3] {")","]","}"};
     int indexopen=0;
     string closed="";
     string openned="";
-        for(int i=0;i<s.Length;i=i+2){
+        for(int i=0;i<s.Lengh;i=i+2){
             openned = s[i].ToString();
             indexopen = Array.IndexOf(open,openned);
             Console.WriteLine("{0} {1}",openned,indexopen);
