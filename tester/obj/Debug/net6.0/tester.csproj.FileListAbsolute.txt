@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\tester.exe
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\tester.deps.json
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\tester.runtimeconfig.json
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\tester.dll
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\ref\tester.dll
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\bin\Debug\net6.0\tester.pdb
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.dll
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\ref\tester.dll
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.pdb
+C:\Users\User\Documents\GitHub\exerciciosc-\tester\obj\Debug\net6.0\tester.genruntimeconfig.cache
