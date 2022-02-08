@@ -1,27 +1,19 @@
-﻿
-int [] nums = {1,2,3,4,4,9,56,90};
-int target = 8;
-int [] dummy = new int[2];
-int num = 0;
-bool result=false;
-for(int i = 0;i<nums.Length;i++){
-    num=nums[i];
-    for(int j = 1;j<nums.Length;j++){
-        
-        if(i!=j && num+nums[j]==target){
-            result=true;
-            dummy[0]=i+1;
-            dummy[1]=j+1;
-            break;
-        }
-        
-    }
-    if(result){
-        break;
-    }
-}
+﻿int[] nums = { 2, 2, 1};
 
-   
-foreach (int a in dummy){
-    Console.Write(a);
-}
+int num;
+        int r =0;
+        if(nums.Length >2){
+            for(int a=0; a<nums.Length;a++){
+                num=nums[a];
+                for(int i =1;i<nums.Length;i++){
+                    if(num==nums[i]){
+                        break;
+                        r++;
+                    }
+                   
+                    
+                }
+                if(r==0){
+                    return num;
+                }
+        }
